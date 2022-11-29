@@ -29,8 +29,7 @@ public class Shop_Client_Entry {
         System.out.println("Do they want to be included in the mailing list? Y/N");
         mailList = input.next();
 
-        String str1 = "y";
-        String str2 = "Y";
+        String str1 = "y", str2 = "Y";
 
         if(mailList.equals(str1) || mailList.equals(str2)) {
             mailingListTrue = true;
